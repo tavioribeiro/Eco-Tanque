@@ -1,0 +1,8 @@
+-- src/commonMain/sqldelight/com/tavioribeiro/ecotanque/TabelaExemplo.sq
+CREATE TABLE tabela_exemplo (
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    nome TEXT NOT NULL
+);
+
+selectAll:
+SELECT * FROM tabela_exemplo;
